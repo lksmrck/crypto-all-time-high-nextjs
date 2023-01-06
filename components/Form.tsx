@@ -64,7 +64,7 @@ const Form = forwardRef(({ landingRef, resultRef }: any, ref: any) => {
               colorScheme="teal"
               size="md"
               type="submit"
-              className={`mt-28 ${clicked ? "animate-spin" : ""} 
+              className={`mt-28 ${clicked ? "animate-shake" : ""} 
             `}
             >
               Calculate
@@ -74,7 +74,7 @@ const Form = forwardRef(({ landingRef, resultRef }: any, ref: any) => {
               variant="outline"
               size="md"
               onClick={clickBackHandler}
-              className={`mt-28 ${clicked ? "animate-spin" : ""} 
+              className={`mt-28 ${clicked ? "animate-shake" : ""} 
             `}
             >
               Back

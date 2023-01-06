@@ -31,7 +31,7 @@ const onClickHandler = () => {
           icon={<FiArrowDown />}
           size="lg"
           onClick={onClickHandler}
-          className={`${clicked ? "animate-spin" : "animate-bounce"}`}
+          className={`${clicked ? "animate-shake" : "animate-bounce"}`}
      
         />
       </div>
